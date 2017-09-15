@@ -1,0 +1,11 @@
+{
+  "server-name": "roxy-junit-test",
+  "server-type": "http",
+  "root": "/",
+  "group-name": "%%GROUP%%",
+  "port": %%ROXY_TEST_PORT%%,
+  "modules-database": "%%MODULES_DATABASE%%",
+  "content-database": "%%DATABASE%%",
+  "authentication": "digest",
+  "url-rewriter": "/roxy/rewrite.xqy"
+}
